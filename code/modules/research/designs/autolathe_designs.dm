@@ -2,6 +2,30 @@
 //////////Autolathe Designs ///////
 ///////////////////////////////////
 
+/datum/design/d4
+	name = "Four-sided Dice"
+	id = "d4"
+	build_type = AUTOLATHE
+	materials = list(MAT_METAL = 50)
+	build_path = /obj/item/dice/d4
+	category = list("initial","Misc")
+	
+/datum/design/d6
+	name = "Six-sided Dice"
+	id = "d6"
+	build_type = AUTOLATHE
+	materials = list(MAT_METAL = 50)
+	build_path = /obj/item/dice/d6
+	category = list("initial","Misc")
+	
+/datum/design/d20
+	name = "Four-sided Dice"
+	id = "d20"
+	build_type = AUTOLATHE
+	materials = list(MAT_METAL = 50)
+	build_path = /obj/item/dice/d20
+	category = list("initial","Misc")
+
 /datum/design/bucket
 	name = "Bucket"
 	id = "bucket"
